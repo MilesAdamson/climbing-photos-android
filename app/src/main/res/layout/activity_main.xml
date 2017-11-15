@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textStyle="bold"
             android:text="@string/placeholder" />
 
         <ImageView
@@ -32,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:numStars="5"
+            android:progressTint="@color/colorGold"
             android:stepSize="1"/>
 
         <LinearLayout
@@ -40,7 +42,7 @@
             android:orientation="horizontal">
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/switchBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
